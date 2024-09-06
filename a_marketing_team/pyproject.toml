@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "a_martketing_team"
+version = "0.1.0"
+description = "A_Martketing_Team using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = "^0.51.0" }
+
+[tool.poetry.scripts]
+a_martketing_team = "a_martketing_team.main:run"
+run_crew = "a_martketing_team.main:run"
+train = "a_martketing_team.main:train"
+replay = "a_martketing_team.main:replay"
+test = "a_martketing_team.main:test"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

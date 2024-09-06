@@ -1,0 +1,20 @@
+generate_content_ideas:
+  description: >
+    Generate creative content ideas for Instagram based on the page description and weekly topic.
+    Provide at least 5-7 different ideas for content types (reels, stories, carousels, etc.).
+  expected_output: >
+    A list of creative content ideas for the week, including a brief description for each.
+
+seo_hashtag_research:
+  description: >
+    Research trending hashtags and keywords relevant to the weekly topic to enhance visibility.
+    Use popular sources like Instagram trends, Google Trends, and other SEO tools.
+  expected_output: >
+    A list of the top 10 trending hashtags and 5 keywords that should be included in the content strategy.
+
+content_scheduling:
+  description: >
+    Based on the generated content ideas and trends, create a weekly schedule.
+    Include the best times to post each content piece, along with the relevant hashtags.
+  expected_output: >
+    A day-by-day content plan with specific post types, times, and hashtags.
